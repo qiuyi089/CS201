@@ -1,0 +1,33 @@
+Script started on 2019-02-13 15:56:19-0800
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 4 a8
+The number is: 12.000000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 4 a8[K[K[K[K[K[K11 4 33f
+Invalid fraction bit(11) should be between 2 and 10
+Program will now terminated. 
+The number is: 0.000000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 11 4 33f[C[1P 33f[1P33f[1P 33f[1P 33f4 33f[C 33f8 33f[C 33f[1P33f
+Invalid exponent bit(8) should be between 3 and 5 
+Program will now terminated. 
+The number is: 34084860461056.000000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 8 33f[K[K[K[K[K4 af
+The number is: 15.500000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 4 af[K[K[K[K[K[K3 3 3c
+NaN 
+Program will now terminate. 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 3 3 3c[K[K[K 38
++INF 
+Program will now terminate. 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 3 3 38[K[K78
+-INF 
+Program will now terminate. 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 3 3 78[C[C[K[K1af
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 3 3 1af[1P 1af[1P1af[1P 1af4 1af[C 1af4 1af[C 1af[1P1af
+The number is: -15.500000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 4 1af[K[K[K[K[K4 0
+The number is: 0.000000 
+dung4@ada:~/Documents/CS_201/program_3$ ./fp_parse 4 4 0[K100
+The number is: -0.000000 
+dung4@ada:~/Documents/CS_201/program_3$ exit
+exit
+
+Script done on 2019-02-13 15:58:50-0800
